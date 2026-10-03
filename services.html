@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .page3 {
+            height: 100vh;
+            background-color: rgb(3, 77, 77);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10%;
+        }
+
+        .page3 h2 {
+            color: wheat;
+        }
+
+        .cards {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            height: 100%;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5%;
+
+        }
+
+        .card:hover {
+            height: 120%;
+            width: 20%;
+            background-color: grey;
+        }
+
+        .cards img {
+            height: 50%;
+            width: 100%;
+        }
+
+        .card h3 {
+            color: whitesmoke;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .card p {
+            color: whitesmoke;
+            font-size: 14px;
+        }
+
+        .card button {
+            background-color: rgb(3, 77, 77);
+            border: 2px solid wheat;
+            color: wheat;
+        }
+
+        .card button:hover {
+            background-color: wheat;
+            color: rgb(3, 77, 77);
+        }
+        footer {
+    height: auto;
+
+}
+
+
+
+        @media (max-width:550px) {
+            .page3 {
+                height: 100vh;
+
+            }
+
+            .cards {
+                height: 40%;
+            }
+
+            .card:hover {
+                height: 110%;
+                width: 40%;
+            }
+
+            .card {
+                height: 100%;
+                width: 15%;
+
+            }
+
+            .card h3 {
+                font-size: 15px;
+            }
+
+            .card p {
+                font-size: 13px;
+            }
+
+            .card button {
+                height: 20px;
+                width: 70px;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page3">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="home.jpg" alt="home-designs">
+                <h3>Homes</h3>
+                <p>Home interior design focuses on creating a comfortable, functional, and visually appealing living
+                    space.</p>
+                <button>Learn more</button>
+            </div>
+            <div class="card">
+                <img src="restaurant.jpg" alt="restaurant-desins">
+                <h3>Restaurants</h3>
+                <p>Restaurant interior design focuses on creating a space that is attractive, comfortable, and
+                    aligned
+                    with brand. </p>
+                <button>Learn more</button>
+            </div>
+            <div class="card">
+                <img src="rentals.jpg" alt="vaccation-rentals">
+                <h3>Vaccation Rentals</h3>
+                <p> rental design focuses on creating a comfortable and stylish
+                    that
+                    makes guests feel at home and lively.</p>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .page1 {
+            height: 100vh;
+            background-image: url(home2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        header {
+            display: flex;
+            height: 8%;
+            width: 100%;
+            background-color: rgb(3, 77, 77);
+            justify-content: space-around;
+            position: fixed;
+            top: 0%;
+
+        }
+
+        .Logo {
+            height: 100%;
+            width: 20%;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        a:hover {
+            color: wheat;
+        }
+
+        a::after {
+            border: 10%;
+        }
+
+
+        .icons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .icon {
+            color: wheat;
+        }
+
+        .icon:hover {
+            color: white;
+        }
+
+
+        main {
+            display: flex;
+            height: 100%;
+            width: 100%;
+        }
+
+        .hero {
+            height: 100%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: center;
+            gap: 20px;
+            padding-left: 20px;
+
+        }
+
+        h1 {
+            color: rgb(3, 77, 77);
+            font-size: 70px;
+        }
+
+        p {
+            color: rgb(74, 73, 73);
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        button {
+            background-color: rgb(3, 77, 77);
+            border: transparent;
+            height: 40px;
+            width: 160px;
+            border-radius: 5px;
+            align-items: center;
+            font-size: 15px;
+            color: white;
+        }
+
+        button:hover {
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page1">
+        <header class="menu">
+            <img src="logo.png" class="Logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <h1>The space of your</h1>
+                <h1>dreams is possible</h1>
+                <p>Interior spaces that reflect the people minds, spaces around them and within them</p>
+                <button>Book a free estimate</button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

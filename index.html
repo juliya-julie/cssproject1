@@ -6,318 +6,272 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interiors Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-    <style>
-        * {
-            margin: 0%;
-            padding: 0%;
-        }
-
-        .page1 {
-            height: 100vh;
-            background-image: url(home2.jpg);
-            background-repeat: no-repeat;
-            background-size: 100%;
-
-        }
-
-        header {
-            display: flex;
-            height: 8%;
-            width: 100%;
-            background-color: rgb(3, 77, 77);
-            justify-content: space-around;
-            position: sticky;
-            top: 0%;
-        }
-
-        .Logo {
-            height: 100%;
-            width: 20%;
-        }
-
-        nav {
-            display: flex;
-            gap: 50px;
-        }
-
-        a {
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            color: white;
-        }
-
-        .icons {
-            display: flex;
-            gap: 20px;
-        }
-
-        .icon {
-            color: wheat;
-        }
-
-
-        main {
-            display: flex;
-            height: 100%;
-            width: 100%;
-        }
-
-        .hero {
-            height: 100%;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-        }
-
-        h1 {
-            color: rgb(3, 77, 77);
-            font-size: 80px;
-        }
-
-        p {
-            color: rgb(74, 73, 73);
-            font-weight: bold;
-            font-size: 20px;
-        }
-
-        button {
-            background-color: rgb(3, 77, 77);
-            border: transparent;
-            height: 40px;
-            width: 160px;
-            border-radius: 5px;
-            align-items: center;
-            font-size: 15px;
-            color: white;
-        }
-
-        .page2 {
-            height: 100vh;
-            display: flex;
-            background-image: url(1.jpg);
-        }
-
-        .left {
-            height: 100%;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-
-        }
-
-        h2 {
-            color: rgb(3, 77, 77);
-            font-size: 50px;
-        }
-
-        .left p {
-            color: grey;
-            font-size: 16px;
-        }
-
-        .right {
-            height: 100%;
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .about-us {
-            height: 50%;
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .page3{
-            height: 100vh;
-            box-sizing: border-box;
-        }
-
-        .cards {
-            height: 50%;
-            width: 60%;
-            display: flex;
-            background-color: aquamarine;
-
-        }
-
-        .card1 img {
-            height: 40%;
-            width: 80%;
-        }
-
-        .cards h3 {
-            color: black;
-        }
-
-        .cards p {
-            color: grey;
-            font-size: 15px;
-        }
-
-        .card2 img {
-            height: 40%;
-            width: 90%;
-        }
-
-        .cards h3 {
-            color: black;
-        }
-
-        .cards p {
-            color: grey;
-            font-size: 15px;
-        }
-
-        .card3 img {
-            height: 40%;
-            width: 80%;
-        }
-
-        .cards h3 {
-            color: black;
-        }
-
-        .cards p {
-            color: grey;
-            font-size: 15px;
-        }
-
-        footer {
-            height: 70%;
-            width: 100%;
-
-
-        }
-
-        .footer-right {
-            background-color: rgb(3, 77, 77);
-            height: 90%;
-            width: 100%;
-
-        }
-
-        .footer-right img {
-            height: 10%;
-            width: 10%;
-
-
-        }
-
-        .footer-right p {
-            color: white;
-            font-size: 10px;
-
-        }
-
-        .footer-right.icons {
-            display: flex;
-            gap: 20px;
-            height: 50%;
-            /* border: 3px solid wheat;
-            border-radius: 75%; */
-        }
-
-        .footer-right.icon {
-            color: wheat;
-            border: 3px solid wheat;
-            border-radius: 75%;
-            height: 40%;
-        }
-    </style>
-
+    <link rel="stylesheet" href="interrior.css">
 </head>
 
 <body>
-    <div class="page1" id="home">
+    <div class="page1">
         <header class="menu">
             <img src="logo.png" class="Logo">
             <nav>
-                <a href="#" class="home">Home</a>
-                <a href="#" class="about">About</a>
-                <a href="#" class="services">Services</a>
-                <a href="#" class="contact">Contact</a>
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </nav>
-            <div class="icons">
-                <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
-            </div>
         </header>
         <main>
             <div class="hero">
-                <h1>The space of your<br> dreams is possible</h1>
-                <p>Interior spaces that reflect the people minds,emotions,and spaces around <br>them and within them</p>
-                <br><br>
+                <h1>The space of your
+                    dreams is possible with interrior</h1>
+                <p>Interior spaces that reflect the people minds, spaces around them and within them</p>
                 <button>Book a free estimate</button>
             </div>
         </main>
     </div>
-    <div class="page2" id="about">
+    <div class="page2">
         <div class="left">
-            <h2>About Us</h2><br><br>
-            <p>we believe interior design is about more than just arranging furniture—it’s about<br> creating
-                environments
-                that inspire,comfort,and tell your story.Our team combines<br> creativity,technical expertise,and a
-                deep understanding of design trends to the craft<br> spaces that are both timeless and practical.
+            <h2>About Us</h2>
 
-                From homes to offices and commercial<br> projects,we approach each design with meticulous attention to
-                the
-                detail,ensuring<br> harmony in colors,textures,lighting,and layout.We listen closely to our
-                clients,and<br>
-                translating their vision into spaces that feel uniquely theirs.
-
-                Design is our passion,<br>excellence is our promise.We don’t just decorate rooms—we create
-                experiences.</p>
+            <p>
+                At our interior design studio, we believe that every space tells a story,your story.
+                We specialize in transforming ordinary </p>
+            <p>environments into elegant, functional, and
+                inspiring spaces that reflect your personality and lifestyle.With a passion for</p>
+            <p>
+                creativity and a keen eye for detail, our team blends aesthetics with practicality to
+                design interiors that are both beautiful </p>
+            <p>and purposeful.From contemporary homes to
+                sophisticated commercial spaces, we bring innovation, quality, and timeless</p>
+            <p> style
+                into every project we undertake. Our approach is simple yet refined: we listen, we
+                understand, and we create. Every </p>
+            <p>design is thoughtfully curated using premium materials,
+                modern concepts, and personalized elements to ensure a seamless</p>
+            <p> and luxurious experience.
+                Driven by excellence and guided by your vision, we are committed to delivering spaces that
+                not</p>
+            <p> only look stunning but also feel like home and make the home feel lively with these stunning design
+                spaces with furnitures.
+            </p>
+            <button>Contact Us</button>
         </div>
         <div class="right">
-            <img src="about1.jpg" class="about-us">
+            <img src="our-team.jpg" alt="about">
         </div>
     </div>
     <div class="page3">
-        <h1>Our Services</h1>
-         <div class="cards">
-            <div class="card1">
-                <img src="home.jpg">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="home.jpg" alt="home-designs">
                 <h3>Homes</h3>
-                <p>A well-designed home can improve <br>mood,productivity,and overall lifestyle.</p>
+                <p>Home interior design focuses on creating a comfortable, functional, and visually appealing living
+                    space.</p>
+                <button>Learn more</button>
             </div>
-            <div class="card2">
-                <img src="restaurant.jpg">
+            <div class="card">
+                <img src="restaurant.jpg" alt="restaurant-desins">
                 <h3>Restaurants</h3>
-                <p>A well-designed restaurant can <br>influence customer mood</p>
+                <p>Restaurant interior design focuses on creating a space that is attractive, comfortable, and
+                    aligned
+                    with brand. </p>
+                <button>Learn more</button>
             </div>
-            <div class="card3">
-                <img src="rentals.jpg">
-                <h3>Vacation Rentals</h3>
-                <p>Vacation rentals are a great alternative to<br> hotels, offering comfort, flexibility, and a<br> homely
-                    atmosphere.</p>
-            </div>
-    </div>
-
-    <footer>
-        <div class="footer-right">
-            <img src="logo.png">
-            <p>Interior design is not just about making spaces look good-<br>it’s about creating environments that
-                improve how people <br>live and work. Whether you prefer minimalist<br> Scandinavian calm or vibrant
-                Bohemian energy, the right<br> design can transform your home or office into a space that<br> feels
-                uniquely
-                yours.</p><br>
-            <div class="icons">
-                <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <div class="card">
+                <img src="rentals.jpg" alt="vaccation-rentals">
+                <h3>Vaccation Rentals</h3>
+                <p> rental design focuses on creating a comfortable and stylish
+                    that
+                    makes guests feel at home and lively.</p>
+                <button>Learn more</button>
             </div>
         </div>
+    </div>
+     <div class="page4">
+
+        <div class="contact-info">
+
+            <h2>Contact us</h2>
+
+            <h3>
+                Let's start transforming your space -
+                contact us today!
+            </h3>
+
+
+            <!-- LOCATION -->
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icons">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <a href="#">
+                    New York, NY 10013
+                </a>
+
+            </div>
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icons">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <a href="#">
+                    interior29@gmail.com
+                    <br>
+                    designs300@gmail.com
+                </a>
+
+            </div>
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icons">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <a href="#">
+                    Dial: +1 (323)-456-91-23
+                </a>
+
+            </div>
+
+            <div class="sml">
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="#" class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+            </div>
+
+
+            <!-- MAP -->
+
+            <div class="contact-map">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387050.0808117518!2d-74.6191883109375!3d40.7217861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f455555555%3A0x90cdbd83375a4b75!2sECODI!5e0!3m2!1sen!2sin!4v1781195155289!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+
+        <div class="contact-form">
+
+            <form action="">
+
+                <h3>SEND A MESSAGE</h3>
+
+
+                <div class="row50">
+
+                    <div class="input-box">
+
+                        <label>First Name</label>
+
+                        <input type="text" placeholder="Enter First Name">
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <label>Last Name</label>
+
+                        <input type="text" placeholder="Enter Last Name">
+
+                    </div>
+
+                </div>
+
+
+                <div class="row50">
+
+                    <div class="input-box">
+
+                        <label>Email</label>
+
+                        <input type="email" placeholder="email@gmail.com">
+
+                    </div>
+
+
+                    <div class="input-box">
+
+                        <label>Mobile</label>
+
+                        <input type="tel" placeholder="+91-7448398547">
+
+                    </div>
+
+                </div>
+
+
+                <div class="row100">
+
+                    <label>Subject Message</label>
+
+                    <textarea placeholder="Write a message here...">
+                    </textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Send
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="menu">
+            <img src="logo.png" class="Logo">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="footer-divider"></div>
+            <p class="footer-copyright">
+                &copy; 2023 Restaurant. All rights reserved. | Crafted by codetech
+            </p>
     </footer>
 </body>
 

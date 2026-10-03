@@ -1,0 +1,521 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.page1 {
+    height: 100vh;
+    background-image: url(home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    height: 8%;
+    width: 100%;
+    background-color: rgb(3, 77, 77);
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+
+}
+
+.Logo {
+    height: 100%;
+    width: 20%;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+a:hover {
+    color: wheat;
+}
+
+a::after {
+    border: 10%;
+}
+
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    color: wheat;
+}
+
+.icon:hover {
+    color: white;
+}
+
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.hero {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+
+}
+
+h1 {
+    color: rgb(3, 77, 77);
+    font-size: 70px;
+}
+
+p {
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: rgb(3, 77, 77);
+    border: transparent;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+}
+
+
+button:hover {
+    color: wheat;
+}
+
+.page2 {
+    height: 100vh;
+    display: flex;
+    background-color: white;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(3, 77, 77);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+
+}
+
+.left p {
+    font-size: 80%;
+}
+
+.left button {
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid rgb(3, 77, 77);
+    color: rgb(3, 77, 77);
+    margin-top: 20px;
+}
+
+.left button:hover {
+    background-color: rgb(3, 77, 77);
+    color: white;
+}
+
+.left a {
+    color: black;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img {
+    height: 30%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.page3 {
+    height: 100vh;
+    background-color: rgb(3, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.page3 h2 {
+    color: wheat;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+
+}
+
+.card:hover {
+    height: 120%;
+    width: 20%;
+    background-color: grey;
+}
+
+.cards img {
+    height: 50%;
+    width: 100%;
+}
+
+.card h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: rgb(3, 77, 77);
+    border: 2px solid wheat;
+    color: wheat;
+}
+
+.card button:hover {
+    background-color: wheat;
+    color: rgb(3, 77, 77);
+}
+
+.page4 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(3, 44, 44);
+    overflow: hidden;
+    /* box-sizing: border-box; */
+}
+
+.contact-info {
+    height: 40%;
+    width: 40%;
+    background-color: grey;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 15px;
+
+}
+.contact-info h3{
+    margin-left:30px ;
+    color: rgb(3, 44, 44);
+}
+
+.contact-info-items {
+    color: gray;
+
+}
+.contact-info-icons{
+    background-color:rgb(3, 44, 44) ;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-info-item {
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.contact-info-item a {
+    color: rgb(3, 44, 44);
+}
+.contact-info-item a:hover{
+    text-decoration:underline ;
+}
+
+.sml{
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+}
+.sml a{
+    height: 50px;
+    font-size: larger;
+    color: rgb(3, 44, 44);
+}
+.sml a :hover{
+    color: wheat;
+}
+.contact-map{
+    display: flex;
+}
+iframe{
+    height: 197%;
+    width: 200%;
+    /* border-radius: 20px; */
+}
+
+.contact-form {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: grid;
+    height: 80%;
+    width: 90%;
+    /* border-radius: 20px; */
+    background-color: gray;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+form h3{
+    display: flex;
+    align-items: center;
+    color: rgb(3, 44, 44);
+}
+label{
+    color: rgb(3, 44, 44);
+}
+input{
+    height: 40%;
+    width: 130%;
+}
+.row50{
+    display: flex;
+    gap: 15%;
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+
+}
+.row100{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+textarea{
+    height: 150px;
+    width: 450px;
+}
+form button{
+    height: 40px;
+    width: 100px;
+    border-radius: 0%;
+}
+
+
+
+
+footer {
+    height: auto;
+
+}
+
+footer .menu {
+    height: 50%;
+    color: whitesmoke;
+    background-color: rgb(3, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 2px;
+    background: black;
+    margin-block: 8px;
+}
+
+.footer-copyright {
+    opacity: 0.7;
+    color: wheat;
+}
+
+@media (max-width:800px) {
+    main {
+        height: 100%;
+
+    }
+
+    .hero {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        padding: 5%;
+    }
+     .page4 {
+        height: auto;
+        flex-direction: column;
+    }
+    .contact-info{
+        height: auto;
+        width: 100%;
+
+    }
+    iframe{
+        height: 50%;
+    }
+    .contact-items iframe{
+        gap: 10px;
+    }
+    .contact form{
+        flex-wrap: wrap;;
+    }
+    form{
+        height: auto;
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width:550px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    .hero h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .page1 {
+        height: 100vh;
+    }
+
+    .page2 {
+        height: 100vh;
+
+
+    }
+
+    .left {
+        font-size: 10px;
+        padding: 5%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .right {
+        height: auto;
+    }
+
+    .page3 {
+        height: 100vh;
+
+    }
+
+    .cards {
+        height: 40%;
+    }
+
+    .card:hover {
+        height: 110%;
+        width: 40%;
+    }
+
+    .card {
+        height: 100%;
+        width: 15%;
+
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card button {
+        height: 20px;
+        width: 70px;
+        font-size: 10px;
+    }
+    
+
+}
+
+
+
